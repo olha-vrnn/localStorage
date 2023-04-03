@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-page">
+            <form name="signup-form" class="signup-form">
+                <h1>Please sign up</h1>
+                <div class="input-block">
+                    <input type="text" id="firstName" class="input-element">
+                    <label for="firstName" class="input-label" id="firstName-label">First name</label>
+                    <i class="fa-solid" id="first-name-box"></i>
+                    <div><span id="first-name-alert" class="alert-text"></span></div>
+                </div>
+                <div class="input-block">
+                    <input type="text" id="lastName" class="input-element">
+                    <label for="lastName" class="input-label" id="lastName-label">Last Name</label>
+                    <i class="fa-solid" id="last-name-box"></i>
+                    <div><span id="last-name-alert" class="alert-text"></span></div>
+                </div>
+                <div class="input-block">
+                    <input type="email" id="email" class="input-element">
+                    <label for="email" class="input-label" id="email-label">Email address</label>
+                    <i class="fa-solid" id="email-box"></i>
+                    <div><span id="email-alert" class="alert-text"></span></div>
+                </div>
+                <div class="input-block">
+                    <input type="password" id="password" class="input-element">
+                    <label for="password" class="input-label" id="password-label">Password</label>
+                    <i class="fa-solid" id="password-box"></i>
+                    <div><span id="password-alert" class="alert-text"></span></div>
+                </div>
+
+                <div>
+                    <input type="button" value="Sign Up" id="signup-btn" class="signup-btn">
+                </div>
+                <a href="#" class="sign-link" id="signin-link">Sign In now</a>
+            </form>
+        </div>
+
+        <div class="form-page-login" id="form-login">
+
+            <form name="signin-form" class="signin-form">
+                <h1>Please sign in</h1>
+                <div class="input-block">
+                    <input type="email" id="email-signin" class="input-element">
+                    <label for="email" class="input-label" id="email-label-signin">Email address</label>
+                    <i class="fa-solid" id="email-box"></i>
+                </div>
+                <div class="input-block">
+                    <input type="password" id="password-signin" class="input-element">
+                    <label for="password" class="input-label" id="password-label-signin">Password</label>
+                    <i class="fa-solid" id="password-box"></i>
+                    <div><span id="password-alert-signin" class="alert-text"></span></div>
+                </div>
+                <div>
+                    <input type="button" value="Sign In" id="signin-btn" class="signin-btn">
+                </div>
+                <a href="#" class="sign-link" id="signup-link">Sign Up now</a>
+            </form>
+        </div>
+        <div class="container-2" id="profile">
+            <div class="profile-block">
+                <div class="user-photo">
+                    <img src="./img/user-photo.jpg" alt="User photo">
+                </div>
+                <h1 class="user-name" id="name-user">name</h1>
+                <p class="user-info" id="email-user">email</p>
+                <p class="user-info">Designer & Web Developing</p>
+                <hr>
+            </div>
+            <input type="button" value="Sign Out" id="signout-user-btn" class="signin-btn">
+        </div>
+        <div class="provide-valid">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/37ac7f3104.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
